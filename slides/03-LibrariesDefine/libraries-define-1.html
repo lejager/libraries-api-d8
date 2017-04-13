@@ -1,0 +1,28 @@
+<h2>Defining Libraries</h2>
+
+<p><ins><code>mytheme.libraries.yml</code><ins></p>
+<pre><code class="yaml">
+  # Give your library a name
+  global:
+    css:
+      # The SMACSS category
+      # Added to the page first
+      base:
+        build/css/elements.css
+      layout:
+        build/css/grid.css
+      component:
+        build/css/blocks.css
+        build/css/search-box.css
+      state:
+        build/css/animations.css
+      # Added to the page last
+      theme:
+        build/css/i-dont-care-just-make-it-work.css
+    js:
+      # Path relative to your theme directory
+      build/libraries/global/global.js: {}
+    dependencies:
+      - core/jquery
+
+</code></pre>

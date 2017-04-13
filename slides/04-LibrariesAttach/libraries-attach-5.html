@@ -1,0 +1,16 @@
+<h2>Attaching Libraries</h2>
+<p><code>some-template.html.twig</code></p>
+<pre><code class="twig">
+  {% if $admin %}
+  {{ attach_library('engage/admin-styles') }}
+{% else %}
+  {{ attach_library('engage/anon-styles') }}
+{% endif %}
+
+<article{{ attributes }}>
+  {% if content %}
+    {{ - content - }}
+  {% endif %}
+</article>
+
+</code></pre>

@@ -1,0 +1,33 @@
+<div class="box--full">
+  <h3 class="heading--ruled">Nunjucksify</h3>
+  <div class="l--before-after">
+    <div class="l__secondary">
+      <h4 class="filename">robots.nunj</h4>
+  <pre class="twig"><code>{% for robot in robots %}
+  <div class="robot">
+    <h3 class="robot__name">{{ robot.name }}</h3>
+    <p class="robot__meta">{{ robot.team }} | {{ robot.form }}</p>
+  </div>
+{% endfor %}
+  </code></pre>
+
+  <div class="fragment">
+    <h4 class="filename">robots.js</h4>
+    <pre class="javascript"><code>var transformers = require('./transformers');
+var robotsTpl = require('./robots.nunj');
+
+document.body.innerHTML = robotsTpl.render({
+  robots: transformers
+});
+    </code></pre>
+  </div>
+        </div>
+
+
+  </div>
+
+</div>
+
+<aside class="notes">
+
+</aside>

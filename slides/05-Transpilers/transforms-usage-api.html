@@ -1,0 +1,25 @@
+<div class="box--full">
+  <h3 class="heading--ruled">Applying Transforms <small>API</small></h3>
+
+      <h4 class="filename">API</h4>
+      <pre class="javascript"><code>// ...other require calls
+var nunjucksify = require('nunjucksify');
+
+b.add('entry.js');
+b.transform(nunjucksify);
+b.bundle()
+  .pipe(fs.createWriteStream('bundle.js')
+);
+          </code></pre>
+<h4 class="filename">package.json</h4>
+<pre class="json"><code>"browser": {
+  "nunjucks": "nunjucks/browser/nunjucks-slim"
+}
+  </code></pre>
+
+
+</div>
+
+<aside class="notes">
+
+</aside>

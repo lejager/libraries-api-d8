@@ -1,0 +1,35 @@
+<div class="box--full">
+  <h3 class="heading--ruled">Custom Builds <small>Browsernizr</small></h3>
+
+  <div class="l--before-after">
+    <div class="l__secondary">
+      <pre class="bash"><code>$ npm install browsernizr
+      </code></pre>
+      <h4 class="filename">modernizr.js</h4>
+      <pre class="javascript"><code>// Require only the tests we need.
+require('browsernizr/test/css/animations');
+require('browsernizr/test/css/transforms');
+require('browsernizr/test/css/columns');
+
+// make sure to do this _after_ importing the tests
+require('browsernizr');
+
+// or if you need access to the modernizr instance:
+var Modernizr = require('browsernizr');
+          </code></pre>
+        </div>
+    <div class="l__primary">
+      <h4 class="filename">index.html</h4>
+<pre class="json"><code>"scripts": {
+  "build": "node build"
+}
+  </code></pre>
+
+    </div>
+  </div>
+
+</div>
+
+<aside class="notes">
+
+</aside>

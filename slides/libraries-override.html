@@ -1,0 +1,21 @@
+<h2>Overriding Libraries</h2>
+
+<p><code>mytheme.info.yml</code></p>
+<pre><code class="yaml">libraries-override:
+  # Replace an entire library.
+  core/drupal.collapse: mytheme/collapse
+  
+  # Replace an asset with another.
+  subtheme/library:
+    css:
+      theme:
+        css/layout.css: css/my-layout.css
+  
+  # Remove an asset.
+  drupal/dialog:
+    css:
+      theme:
+        dialog.theme.css: false
+  
+  # Remove an entire library.
+  core/modernizr: false</code></pre>

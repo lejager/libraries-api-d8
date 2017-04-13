@@ -1,0 +1,26 @@
+<div class="box--full">
+  <h3 class="heading--ruled">Common.js</h3>
+  <div class="l--before-after">
+    <div class="l__primary">
+      <h4 class="filename">moduleA.js</h4>
+      <pre class="javascript"><code>// Export moduleA
+module.exports = function () {
+  return something
+};
+      </code></pre>
+    </div>
+    <div class="l__secondary">
+      <h4 class="filename">moduleB.js</h4>
+      <pre class="javascript"><code>// Require in module B
+var moduleA = require('./moduleA');
+
+alert(moduleA);
+      </code></pre>
+    </div>
+  </div>
+</div>
+
+<aside class="notes">
+  synchronous
+  format of choice for Node and npm
+</aside>

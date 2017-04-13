@@ -1,0 +1,513 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+ // This file has been copied over from
+ // ../../bower_components/reveal.js/css/theme/source/black.scss
+
+ // See ../../bower_components/reveal.js/css/theme/README.md
+ // for further explanations on how to create a custom reveal.js theme.
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+
+//
+// Aten Colors
+//
+$red: #BE0006;
+$black: #323133;
+$gray: #645E64;
+$white: #F5F4F5;
+$gold: #F7AA0A;
+$gold-light: #FDC400;
+$blue: #00659B;
+$blue-light: #0098CE;
+$purple: #57308b;
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: $gray;
+$headingColor: $black;
+$accentColor: $gold;
+
+$mainFontSize: 34px;
+$mainFont: 'Roboto', Helvetica, sans-serif;
+$headingFont: 'Roboto', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 900;
+$linkColor: $gold;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: $gold-light;
+
+$heading1Size: 4.5em;
+$heading2Size: 2.85em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+@mixin link--gray {
+  color: $gray;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+section[data-state="state--dark"] {
+  &, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
+
+section[data-state="state--gold"] {
+  &, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+
+  p {
+    color: $black;
+    font-weight: 600;
+  }
+}
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+
+//
+// Overrrides
+//
+.reveal {
+* {
+  text-align: left;
+}
+
+section {
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+  color: $black;
+  text-transform: none;
+  line-height: 1.1em;
+}
+
+h1 > .subtitle {
+  color: $linkColor;
+}
+
+ul,
+ol {
+  margin-left: 0;
+
+  > li {
+    list-style-position: outside;
+    margin-bottom: .33em;
+  }
+}
+
+del {
+  opacity: .4;
+}
+
+small {
+  vertical-align: baseline;
+}
+
+strong {
+  color: #000;
+}
+
+blockquote {
+  box-shadow: none;
+  font-style: normal;
+  color: $black;
+  quotes: "“" "”" "‘" "’";
+
+  &:before {
+    content: open-quote;
+    color: $gold;
+    float: left;
+    font-size: 4em;
+    margin: -.25em -.75em 0 -.75em;
+    font-family: georgia;
+    font-weight: bold;
+  }
+
+  .citation {
+    color: $gray;
+    font-size: .75em;
+
+    &:before {
+      content: "- ";
+    }
+
+    cite {
+      color: $black;
+      font-style: italic;
+    }
+  }
+}
+
+pre {
+  width: 100%;
+  box-shadow: none;
+}
+
+pre > code {
+  font-size: 1.4em;
+  line-height: 1.1;
+}
+
+section img {
+  background-color: transparent;
+}
+
+.logo {
+  width: 110px;
+  margin-top: 60px;
+}
+
+.image--full {
+  // Scale up to compensate for margins.
+  transform: scale(1.2);
+}
+
+p,
+img {
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+section img {
+  border: 0;
+  box-shadow: none;
+}
+
+.box--ruled {
+  position: relative;
+  height: 720px * .82;
+
+  &:after {
+    content: "";
+    display: block;
+    height: .25em;
+    width: 8em;
+    background-color: $gold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.box--full {
+  height: 720px * .82;
+}
+
+.heading--ruled {
+  position: relative;
+  padding-bottom: .5em;
+  margin-bottom: 1.5em;
+
+  &:after {
+    content: "";
+    display: block;
+    height: .25em;
+    width: 2em;
+    background-color: $gold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  > small {
+    font-weight: 300;
+  }
+}
+
+.heading--bigass {
+  line-height: .8em;
+  font-size: 6.5em;
+
+  > small {
+    display: block;
+    font-size: .4em;
+  }
+}
+
+h3.heading--figure {
+  margin-bottom: 1em;
+  text-align: center;
+  margin-top: 0;
+}
+
+.filename {
+  color: $gray;
+  font-size: .75em;
+  letter-spacing: .03em;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.aten__logo {
+  width: 250px;
+  height: 375px;
+  margin-bottom: 3em;
+}
+
+.aten__logo--horizontal {
+  width: 250px;
+  height: 100px;
+  margin-bottom: 3em;
+}
+
+.aten__contact {
+  a {
+    @include link--gray;
+  }
+
+  span {
+    opacity: .4;
+    margin-left: .25em;
+    margin-right: .25em;
+  }
+}
+
+.speaker__logo {
+  margin-bottom: 3em;
+}
+
+.speaker__name {
+  font-size: $heading2Size;
+  line-height: 1;
+}
+
+.speaker__title {
+  text-transform: uppercase;
+  font-size: .875em;
+}
+
+.speaker__twitter {
+  font-size: .75em;
+}
+
+@mixin number-circle($size: 2em) {
+  background-color: $gold;
+  display: block;
+  border-radius: 50%;
+  height: $size;
+  width: $size;
+  line-height: $size;
+  vertical-align: middle;
+  text-align:  center;
+  font-weight: normal;
+}
+
+.number-stat {
+  margin-top: 1em;
+}
+
+.number-circle {
+  @include number-circle;
+}
+
+.number-stat > .number-circle {
+  float: left;
+  margin-right: .25em;
+  position: relative;
+  top: -.45em;
+}
+
+.heading--circle {
+  @include number-circle(6em);
+  display: block;
+  font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.list--biggy {
+  counter-reset: biggy;
+  list-style: none;
+
+  > li {
+    clear: left;
+    margin-bottom: 1em;
+
+    &:before {
+      counter-increment: biggy;
+      content: counter(biggy);
+      @include number-circle;
+      font-size: .875em;
+      float: left;
+      margin-left: -3em;
+      position: relative;
+      top: -.33em;
+    }
+  }
+}
+
+.list--columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+
+  > li {
+    list-style: none;
+  }
+}
+
+.list--centered {
+  > li {
+    text-align: center !important;
+  }
+}
+
+.chapter-heading {
+  padding-left: 3em;
+}
+
+.chapter-heading__numeral {
+  @include number-circle;
+  float: left;
+  margin-left: -3em;
+}
+
+//
+// Layout
+//
+.l--before-after {
+  display: flex;
+  justify-content: space-between;
+
+  pre > code {
+    font-size: 1.3em;
+  }
+
+  > .l__primary,
+  > .l__secondary {
+    flex-basis: 48%;
+  }
+}
+
+.color-white {
+  color: white;
+}
+
+.border-gold {
+  border: 3px solid #888636!important;
+}
+.color-gold {
+  color: #888636!important;
+}
+
+.section-end {
+  * {
+    display: block;
+    text-align: center;
+  }
+}
+
+.section-end h2 {
+  padding: 30px 60px;
+  color: #fff;
+  font-size: 2.825em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.section-end img {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.section-end .evaluate {
+  margin: 1em auto;
+
+  * {
+    text-align: center;
+  }
+}
+
+.section-end .thanks h2 {
+  padding: 0px;
+  text-align: center;
+  color: $white;
+  text-shadow: 0 0 .5em $purple !important;
+  font-weight: 300;
+}
+
+.section-end .thanks::before {
+  content:url('../../assets/footer-flourish.png');
+  position:relative;
+}
+
+.section-end .end__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.graph {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  display: block;
+}
+
+figcaption {
+  font-size: .75em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.timeline {
+
+  h4,
+  h3 {
+    color: $gold;
+    flex-basis: 100%;
+  }
+
+  dl {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 1em;
+  }
+
+  dt {
+    flex-basis: 20%;
+    margin-bottom: .25em;
+    font-weight: 900;
+  }
+
+  dd {
+    margin-bottom: .25em;
+    flex-basis: 80%;
+    margin-left: 0;
+  }
+}
+
+} // end .reveal

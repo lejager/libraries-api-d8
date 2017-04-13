@@ -1,0 +1,12 @@
+<h2>Attaching Libraries</h2>
+<p><code>Preprocess</code></p>
+<p><code>node.inc</code></p>
+<pre><code class="php">
+  /**
+    * Implements hook_preprocess_sadface()
+    */
+
+  function mytheme_preprocess_page(&$vars) {
+    $vars['#attached']['library'][] = 'mytheme/mylibrary';
+  }
+</code></pre>

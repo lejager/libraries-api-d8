@@ -1,0 +1,30 @@
+<div class="box--full">
+  <h3 class="heading--ruled">Code Splitting <small>Factor Bundle</small></h3>
+
+  <div class="l--before-after">
+    <div class="l__primary">
+      <h4 class="filename">x.js</h4>
+      <pre class="javascript"><code>var z = require('./z.js');
+var w = require('./w.js');
+console.log(z(5) * w(2));
+      </code></pre>
+      <h4 class="filename">y.js</h4>
+      <pre class="javascript"><code>var z = require('./z.js');
+console.log(z(2) + 111);
+      </code></pre>
+
+    </div>
+    <div class="l__secondary">
+      <h4 class="filename">z.js</h4>
+      <pre class="javascript"><code>module.exports = function (n) { return n * 111 }
+      </code></pre>
+      <h4 class="filename">w.js</h4>
+      <pre class="javascript"><code>module.exports = function (n) { return n * 50 }
+      </code></pre>
+    </div>
+  </div>
+</div>
+
+<aside class="notes">
+
+</aside>

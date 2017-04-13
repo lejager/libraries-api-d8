@@ -1,0 +1,19 @@
+<h2>Defining Libraries</h2>
+
+<p><ins><code>mytheme.libraries.yml</code><ins></p>
+<p><del><code>hook_library_info()</code></del></p>
+<pre><code class="yaml">
+  # Give your library a name
+  global:
+    css:
+      # The SMACSS category
+      theme:
+        # Path relative to your theme directory
+        build/libraries/global/global.css: {}
+    js:
+      # Path relative to your theme directory
+      build/libraries/global/global.js: {}
+    dependencies:
+      - core/jquery
+
+</code></pre>

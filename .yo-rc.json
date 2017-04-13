@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Mastering the Libraries API in Drupal 8",
+    "packageVersion": "1.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "lejager",
+    "githubRepository": "libraries-api-d8"
+  }
+}
