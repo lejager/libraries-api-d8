@@ -14,6 +14,9 @@ section[data-state="state--gold"] p {
   color: #323133;
   font-weight: 600; }
 
+section[data-state="state--white"], section[data-state="state--white"] h1, section[data-state="state--white"] h2, section[data-state="state--white"] h3, section[data-state="state--white"] h4, section[data-state="state--white"] h5, section[data-state="state--white"] h6 {
+  color: #fff; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/

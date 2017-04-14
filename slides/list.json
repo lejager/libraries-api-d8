@@ -4,7 +4,7 @@
         "attr": {
             "data-state": "state--dark",
             "data-background": "#323133"
-          }
+        }
     },
     {
         "filename": "01-Intro/matt-jager.html",
@@ -41,8 +41,14 @@
     {
         "filename": "02-WhyLibraries/librariesd8.html",
         "attr": {
-            "data-state": "state--dark",
+            "data-state": "state--gold",
             "data-background": "#323133"
+        }
+    },
+    {
+        "filename": "03-LibrariesDefine/libraries-define-intro.md",
+        "attr": {
+            "data-background": "resources/img/modjs_Diaganol-Single.svg"
         }
     },
     {
@@ -64,10 +70,16 @@
         "filename": "03-LibrariesDefine/libraries-define-5.html"
     },
     {
-        "filename": "04-LibrariesAttach/libraries-attach-2.html"
+        "filename": "04-LibrariesAttach/libraries-attach-intro.md",
+        "attr": {
+            "data-background": "resources/img/modjs_Diaganol-Single.svg"
+        }
     },
     {
         "filename": "04-LibrariesAttach/libraries-attach.html"
+    },
+    {
+        "filename": "04-LibrariesAttach/libraries-attach-2.html"
     },
     {
         "filename": "04-LibrariesAttach/libraries-attach-4.html"
@@ -79,9 +91,16 @@
         "filename": "04-LibrariesAttach/libraries-attach-5.html"
     },
     {
+        "filename": "05-LibrariesExtra/libraries-extra-intro.md",
+        "attr": {
+            "data-background": "resources/img/modjs_Diaganol-Single.svg"
+        }
+    },
+    {
         "filename": "05-LibrariesExtra/libraries-extend.html"
     },
     {
         "filename": "05-LibrariesExtra/libraries-override.html"
-    }
+    },
+    "gotchas.md"
 ]

@@ -78,6 +78,12 @@ section[data-state="state--gold"] {
   }
 }
 
+section[data-state="state--white"] {
+  &, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
+
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
