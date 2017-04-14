@@ -1,9 +1,8 @@
 ##  Gotchas
 
 <ul class="list--biggy">
-  <li class="fragment">Organize Code into Smaller Files (a.k.a Modules)</li>
-  <li class="fragment">Provide a Way to Export and Import modules</li>
-  <li class="fragment">Respect the Global Namespace</li>
-  <li class="fragment">Manage Dependencies</li>
-  <li class="fragment">Utilize Existing Packages</li>
+  <li class="fragment">If a file is already linked it won't get added again</li>
+  <li class="fragment">Module CSS files are grouped before theme CSS files</li>
+  <li class="fragment">You need full docroot path when a library is already overridden</li>
+  <li class="fragment">Check the ordering when replacing a file</li>
 </ul>
