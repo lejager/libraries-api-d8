@@ -1,6 +1,14 @@
 <h2>Defining Libraries</h2>
 
-<p>Properties</p>
+<p><ins><code>core.libraries.yml</code><ins></p>
 <pre><code class="yaml">
-properties here
+  classList:
+    remote: https://github.com/eligrey/classList.js
+    version: "2014-12-13"
+    license:
+      name: Public Domain
+      url: https://github.com/eligrey/classList.js/blob/2014-12-13/LICENSE.md
+      gpl-compatible: true
+    js:
+      assets/vendor/classList/classList.min.js: { weight: -21, browsers: { IE: 'lte IE 9', '!IE': false }, minified: true }
 </code></pre>

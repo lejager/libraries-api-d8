@@ -58,6 +58,12 @@
         "filename": "03-LibrariesDefine/libraries-define-3.html"
     },
     {
+        "filename": "03-LibrariesDefine/libraries-define-4.html"
+    },
+    {
+        "filename": "03-LibrariesDefine/libraries-define-5.html"
+    },
+    {
         "filename": "04-LibrariesAttach/libraries-attach-2.html"
     },
     {
@@ -73,212 +79,9 @@
         "filename": "04-LibrariesAttach/libraries-attach-5.html"
     },
     {
-        "filename": "libraries-extend.html"
+        "filename": "05-LibrariesExtra/libraries-extend.html"
     },
     {
-        "filename": "libraries-override.html"
-    },
-    {
-        "filename": "02-Overview/history-growth.md",
-        "attr": {
-            "data-background": "resources/img/modjs_Diaganol.svg"
-        }
-    },
-    {
-        "filename": "02-Overview/history.md",
-        "attr": {
-            "data-background": "resources/img/modjs_Diaganol.svg"
-        }
-    },
-    {
-        "filename": "02-Overview/history-reasons.md",
-        "attr": {
-            "data-background": "resources/img/modjs_Diaganol.svg"
-        }
-    },
-    {
-        "filename": "02-Overview/history-npm.md",
-        "attr": {
-            "data-state": ""
-        }
-    },
-    {
-        "filename": "03-Modules/js-modules.html",
-        "attr": {
-            "data-state": "state--gold",
-            "data-background": "resources/img/modjs_Diaganol-Gold.svg"
-        }
-    },
-    {
-        "filename": "03-Modules/modules-as-books.html",
-        "attr": {}
-    },
-    {
-        "filename": "03-Modules/goals.md",
-        "attr": {
-            "data-background": "resources/img/modjs_Diaganol.svg"
-        }
-    },
-    {
-        "filename": "03-Modules/modules-export.md",
-        "attr": {
-            "data-state": "state--dark",
-            "data-background": "#323133"
-        }
-    },
-    {
-        "filename": "03-Modules/module-formats.html",
-        "attr": {}
-    },
-    {
-        "filename": "03-Modules/amd.html",
-        "attr": {}
-    },
-    {
-        "filename": "03-Modules/common-js.html",
-        "attr": {}
-    },
-    {
-        "filename": "03-Modules/es6-modules.html",
-        "attr": {}
-    },
-    {
-        "filename": "03-Modules/es6-modules-default.html",
-        "attr": {}
-    },
-    {
-        "filename": "04-Bundlers/js-bundlers.html",
-        "attr": {
-            "data-state": "state--gold",
-            "data-background": "resources/img/modjs_Diaganol-Gold.svg"
-        }
-    },
-    {
-        "filename": "04-Bundlers/js-bundlers-overview.html",
-        "attr": {
-            "data-background": "resources/img/modjs_Diaganol.svg"
-        }
-    },
-    "04-Bundlers/bundler-glossary.html",
-    "04-Bundlers/js-bundlers-examples.html",
-    {
-        "filename": "04-Bundlers/browserify.html",
-        "attr": {
-            "data-background": "resources/img/modjs_Diaganol.svg"
-        }
-    },
-    {
-        "filename": "04-Bundlers/browserify-usage-global.html",
-        "attr": {}
-    },
-    {
-        "filename": "04-Bundlers/browserify-usage-local.html",
-        "attr": {}
-    },
-    {
-        "filename": "04-Bundlers/browserify-usage-api.html",
-        "attr": {}
-    },
-    {
-        "filename": "04-Bundlers/browsernizr.html",
-        "attr": {}
-    },
-    {
-        "filename": "04-Bundlers/lodash.html",
-        "attr": {}
-    },
-    {
-        "filename": "04-Bundlers/lodash-specific.html",
-        "attr": {}
-    },
-    {
-        "filename": "04-Bundlers/browserify-shim.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/transforms.html",
-        "attr": {
-            "data-state": "state--gold",
-            "data-background": "resources/img/modjs_Diaganol-Gold.svg"
-        }
-    },
-    {
-        "filename": "05-Transpilers/transpiler-before.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/transpiler-after.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/nunjucksify.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/nunjucksify-result.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/transforms-usage-package.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/transforms-usage.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/transforms-usage-api.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/transforms-babelify.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/factor-bundle-files.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/factor-bundle-graph.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/factor-bundle.html",
-        "attr": {}
-    },
-    {
-        "filename": "05-Transpilers/watchify.html",
-        "attr": {}
-    },
-    {
-        "filename": "06-Drupal/drupal.html",
-        "attr": {
-            "data-state": "state--gold",
-            "data-background": "resources/img/modjs_Diaganol-Gold.svg"
-        }
-    },
-    {
-        "filename": "06-Drupal/drupal-scaffold.html",
-        "attr": {}
-    },
-    {
-        "filename": "06-Drupal/drupal-package.html",
-        "attr": {}
-    },
-    {
-        "filename": "06-Drupal/drupal-bundle.html",
-        "attr": {}
-    },
-    {
-        "filename": "06-Drupal/drupal-libraries.html",
-        "attr": {}
-    },
-    {
-        "filename": "07-Conclusion/end.html",
-        "attr": {
-            "data-state": "state--dark",
-            "data-background": "#323133"
-        }
-    },
-    "intro.html"
+        "filename": "05-LibrariesExtra/libraries-override.html"
+    }
 ]

@@ -1,6 +1,7 @@
 <h2>Attaching Libraries</h2>
-<p><code>[#attached] on a Render Array</code></p>
+<p><code>[#attached] in a preprocess function</code></p>
 <pre><code class="php">
-  $build['an_element']['#attached']['library'][] = 'mytheme/chosen';
-
+  function icfj_preprocess_page(&$variables) {
+    $variables['#attached']['library'][] = 'icfj/clickpledge';
+  }
 </code></pre>
