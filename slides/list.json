@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "01-Intro/intro.html",
+        "attr": {
+            "data-state": "state--dark",
+            "data-background": "#323133"
+        }
+    },
+    {
+        "filename": "01-Intro/matt-jager.html",
+        "attr": {
+            "data-background": "resources/img/modjs_Diaganol-Single.svg"
+        }
+    },
+    {
+        "filename": "01-Intro/aten.html"
+    },
+    {
+        "filename": "01-Intro/aten-team.md",
+        "attr": {}
+    },
+    {
+        "filename": "01-Intro/aten-clients.md",
+        "attr": {}
+    },
+    {
+        "filename": "02-WhyLibraries/why.html",
+        "attr": {
+            "data-state": "state--dark",
+            "data-background": "#323133"
+        }
+    },
+    {
+        "filename": "02-WhyLibraries/foad.html",
+        "attr": {}
+    },
+    {
+        "filename": "02-WhyLibraries/frustration.md",
+        "attr": {}
+    },
+    {
+        "filename": "02-WhyLibraries/librariesd8.html",
+        "attr": {
+            "data-state": "state--gold",
+            "data-background": "#323133"
+        }
+    },
+    {
+        "filename": "03-LibrariesDefine/libraries-define-intro.md",
+        "attr": {
+            "data-background": "resources/img/modjs_Diaganol-Single.svg"
+        }
+    },
+    {
+        "filename": "03-LibrariesDefine/libraries-define.html"
+    },
+    {
+        "filename": "03-LibrariesDefine/libraries-define-1.html"
+    },
+    {
+        "filename": "03-LibrariesDefine/libraries-define-2.html"
+    },
+    {
+        "filename": "03-LibrariesDefine/libraries-define-3.html"
+    },
+    {
+        "filename": "03-LibrariesDefine/libraries-define-4.html"
+    },
+    {
+        "filename": "03-LibrariesDefine/libraries-define-5.html"
+    },
+    {
+        "filename": "04-LibrariesAttach/libraries-attach-intro.md",
+        "attr": {
+            "data-background": "resources/img/modjs_Diaganol-Single.svg"
+        }
+    },
+    {
+        "filename": "04-LibrariesAttach/libraries-attach.html"
+    },
+    {
+        "filename": "04-LibrariesAttach/libraries-attach-2.html"
+    },
+    {
+        "filename": "04-LibrariesAttach/libraries-attach-4.html"
+    },
+    {
+        "filename": "04-LibrariesAttach/libraries-attach-3.html"
+    },
+    {
+        "filename": "04-LibrariesAttach/libraries-attach-5.html"
+    },
+    {
+        "filename": "05-LibrariesExtra/libraries-extra-intro.md",
+        "attr": {
+            "data-background": "resources/img/modjs_Diaganol-Single.svg"
+        }
+    },
+    {
+        "filename": "05-LibrariesExtra/libraries-extend.html"
+    },
+    {
+        "filename": "05-LibrariesExtra/libraries-override.html"
+    },
+    "gotchas.md"
+]

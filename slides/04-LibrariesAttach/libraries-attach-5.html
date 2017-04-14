@@ -1,0 +1,15 @@
+<h3><code>some-template.html.twig</code></h3>
+<pre><code class="twig">
+{% if $admin %}
+  {{ attach_library('engage/admin-styles') }}
+{% else %}
+  {{ attach_library('engage/anon-styles') }}
+{% endif %}
+
+<article{{ attributes }}>
+  {% if content %}
+    {{ - content - }}
+  {% endif %}
+</article>
+
+</code></pre>
