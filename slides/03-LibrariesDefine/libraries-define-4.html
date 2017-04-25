@@ -3,7 +3,12 @@
 js-header:
   header: true
   js:
-    https://maps.googleapis.com/maps/api/js?key=myownapikey&signed_in=true&libraries=drawing&callback=initMap: {type: external, attributes: { defer: true, async: true, data-test: map-link } }
+    https://maps.googleapis.com?key=myownapikey:
+      type: external
+      attributes:
+        defer: true
+        async: true
+        data-test: map-link
   dependencies:
-    - core/jquery
+  - core/jquery
 </code></pre>

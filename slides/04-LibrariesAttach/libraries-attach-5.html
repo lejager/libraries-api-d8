@@ -1,15 +1,8 @@
 <h3><code>some-template.html.twig</code></h3>
 <pre><code class="twig">
-{% if $admin %}
-  {{ attach_library('engage/admin-styles') }}
+{% if $data %}
+  {{ attach_library('mytheme/chart') }}
 {% else %}
-  {{ attach_library('engage/anon-styles') }}
+  {{ attach_library('mytheme/no-chart') }}
 {% endif %}
-
-<article{{ attributes }}>
-  {% if content %}
-    {{ - content - }}
-  {% endif %}
-</article>
-
 </code></pre>

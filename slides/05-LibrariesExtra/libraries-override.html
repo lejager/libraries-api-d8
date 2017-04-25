@@ -1,26 +1,9 @@
 <h3><code>mytheme.info.yml</code></h3>
 <pre><code class="yaml">
-  name: Engage
-  type: theme
-  libraries:
-    - engage/global
-    - engage/typekit
   libraries-override:
     # Replace an entire library.
     core/drupal.collapse: mytheme/collapse
 
     # Remove an entire library.
     core/modernizr: false
-
-    # Replace an asset with another.
-    subtheme/library:
-      css:
-        theme:
-          css/layout.css: css/my-layout.css
-
-          # Remove an asset.
-          drupal/dialog:
-            css:
-              theme:
-                dialog.theme.css: false
 </code></pre>

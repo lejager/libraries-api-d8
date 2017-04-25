@@ -24,6 +24,9 @@
         "attr": {}
     },
     {
+        "filename": "02-WhyLibraries/acknowledgements.html"
+    },
+    {
         "filename": "02-WhyLibraries/why.html",
         "attr": {
             "data-state": "state--dark",
@@ -102,5 +105,22 @@
     {
         "filename": "05-LibrariesExtra/libraries-override.html"
     },
-    "gotchas.md"
+    {
+        "filename": "05-LibrariesExtra/libraries-override-2.html"
+    },
+    {
+        "filename": "05-LibrariesExtra/libraries-override-3.html"
+    },
+    {
+        "filename": "05-LibrariesExtra/libraries-api-module.md"
+    },
+    {
+        "filename": "gotchas.md"
+    },
+    {
+        "filename": "slides-here.md"
+    },
+    {
+        "filename": "01-Intro/aten.html"
+    }
 ]

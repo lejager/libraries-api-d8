@@ -310,7 +310,8 @@ body {
 
 .reveal ul,
 .reveal ol {
-  margin-left: 0; }
+  margin-left: 80px;
+  margin-top: 40px; }
   .reveal ul > li,
   .reveal ol > li {
     list-style-position: outside;
